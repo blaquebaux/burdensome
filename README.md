@@ -47,3 +47,12 @@ low-correlation hedge. A `burdensome_2` with a real cat-bond/ILS feed would isol
 **Research.** Honest conditional — a genuine premium confirmed and distinguished from vol-selling, with its equity beta,
 cyclicality and tail stated squarely. Basket profile, cat-year and hard-market windows, SPY+PUTW decomposition, Alpaca
 SIP daily total return. No live capital.
+
+## Mirage audit (spec sign-stability) — verdict DOWNGRADED to FRAGILE
+
+A cross-control specification audit ([nullbar/mirage](https://github.com/blaquebaux/nullbar)) re-estimated the
+"distinct from puts" residual alpha across all 256 control subsets. The raw **+15.7%/yr** alpha **collapses to as low as
++2.6%** and is statistically significant in **only 2%** of specifications; SPY, QUAL, PUTW and HYG each *raise R² while
+killing the alpha* (all ~0.6 correlated with the basket). The "distinct specialty premium" is largely **equity + quality +
+credit beta**, flattered by the narrow SPY+PUTW control set used here. **Revised verdict: FRAGILE** — treat as beta-plus, a
+specification-dependent residual, not a distinct premium.
